@@ -1,0 +1,66 @@
+.dayLightScreen{
+    z-index: 1;
+    transition: 4.0 ease-in-out;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 104%;
+    height:1050px;
+    position: absolute;
+    top:-20px;
+    left: -20px;
+}
+.clouds{
+    visibility: hidden;
+    z-index: 9;
+    opacity: 0.9;
+    background: url("https://cdn.clipart.email/ee6910c9b31d35d4b15831a86fe71a81_cloud-png-image-clouds-png-images-picsart-png_1988-1290.png");
+    background-size: cover;
+    background-position:bottom;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:-100px;
+    transition: 4.0 ease-in-out;
+}
+.clouds2{
+    visibility: hidden;
+    z-index: 8;
+    opacity: 0.8;
+    background: url("https://cdn.clipart.email/ee6910c9b31d35d4b15831a86fe71a81_cloud-png-image-clouds-png-images-picsart-png_1988-1290.png");
+    background-size: cover;
+    background-position:center;
+    width:100%;
+    height:1600px;
+    position: absolute;
+    top:-800px;
+    transition: 4.0 ease-in-out;
+
+}
+.rain{
+    visibility: hidden;
+    z-index: 10;
+    opacity: 0.8;
+    background: url(src/img/rain.png);
+    background-size: cover;
+    background-position:center;
+    width:100%;
+    height:1050px;
+    position: absolute;
+    top:0;
+    transition: 4.0 ease-in-out;
+}
+.snow{
+    visibility: hidden;
+    z-index: 10;
+    opacity: 0.8;
+    background: url(src/img/snow.png);
+    background-size: cover;
+    background-position:center;
+    width:100%;
+    height:1050px;
+    position: absolute;
+    top:0;
+    transition: 4.0 ease-in-out;
+}
