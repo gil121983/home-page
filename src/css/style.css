@@ -29,6 +29,7 @@ body{
 .clock{
     text-align: center;
     font-size: 120px;
+    transition: 0.1s ;
 }
 .dayNdate{
     font-size: 30px;
