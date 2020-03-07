@@ -3,37 +3,41 @@
 body{
     color:greenyellow;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background:url(src/img/IMG_0277.jpeg) ;
+    background:url("https://phlearn.com/wp-content/uploads/2017/04/Landscape-before-1200px.jpg") ;
+    background-color: rgb(40,40,40);
     background-size: cover;
     background-position:center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 1050px;
 }
+
 .main-display{
     z-index: 11;
-    /* border: blue 3px solid; */
+    
     display: flex;
     flex-direction: column;
     max-width: 400px;
     align-self: center;
-    margin:320px;
+    margin:300px;
 }
 .greetings{
-    font-size: 60px;
+    font-size: 30px;
     text-align: center;
 }
 .clock{
     text-align: center;
-    font-size: 100px;
+    font-size: 120px;
 }
 .dayNdate{
-    font-size: 35px;
+    font-size: 30px;
     align-self: center;
 }
 .location-temp{
     display:flex;
-    font-size: 20px;
+    font-size: 25px;
+    margin-top:10px;
     align-self: center;
 }
 .current-city{
